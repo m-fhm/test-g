@@ -1,0 +1,15 @@
+test
+step1 :signup github and install gitcmd.
+step2: configuration on time.
+    cmd:
+    git config --global user.email "github-email"
+    git config --global user.name "github-id"
+
+# How we can create/clone our project on github.
+Method 1:
+    create your project or open to your project that you want to place on github.
+    initialize git in it.
+        cmd:
+            git init 
+    add/attach github repo in which you want to place your project. to do that you have to create repo 
+    on the github first.
