@@ -12,4 +12,20 @@ Method 1:
         cmd:
             git init 
     add/attach github repo in which you want to place your project. to do that you have to create repo 
-    on the github first.
+    on the github first, copy the command from your created github repo.
+    cmd:
+        git remote add origin https://github.com/*********
+    after get add the origin in which repo on the github we want to put our project we have to add content that we want to send on github.
+    cmd: 
+        git add name of the file/folder with address.
+        git add .        # for all in the current folder. 
+    then do commint on the staged content.
+    cmd: 
+        git commit -m "any comment relevent to the update"
+    the final step to place our content on github push
+    cmd:
+        git push
+
+        it will need authorization one time.
+       
+
